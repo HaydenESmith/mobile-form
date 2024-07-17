@@ -7,11 +7,13 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
-    </head>
+    </head> 
     <body>
-        <span>&#x25CF;</span>
-        <span>&#x25A0;</span>
-        <span>&#x25A0;</span>
+        <div class="topr-icons">
+            <span>&#x25CF;</span>
+            <span>&#x25A0;</span>
+            <span>&#x25A0;</span>
+        </div>
         <div class="topicon"></div>
         <nav>
             <div class="nav-l">
@@ -19,7 +21,7 @@
                 <h2>Contacts</h2>
             </div>
             <div class="nav-r">
-                <span>&#128269;</span>
+                <span class="mag">&#128269;</span>
                 <span>&#8942;</span>
             </div>
         </nav>
@@ -38,11 +40,13 @@
             </select>
         </div>
         <div class="address">
-            <span>&#128205;</span>
-            <input type="text" name="address" id="address" placeholder="Address">
-            <input type="text" name="city" id="city" placeholder="City">
+            <div class="str-city">
+                <span>&#128205;</span>
+                <input type="text" name="address" id="address" placeholder="Address">
+                <input type="text" name="city" id="city" placeholder="City">
+            </div>
             <div class="state-zip">
-                <label for="state">Select your state:</label>
+                <label for="state"></label>
                 <select id="state" name="state">
                     <option value="AL">Alabama</option>
                     <option value="AK">Alaska</option>
@@ -98,10 +102,12 @@
                 <input type="number" name="zip" id="zip" maxlength="5">
             </div>
         </div>
-        <span>&#x2709;</span>
-        <input type="email" name="email" id="email" placeholder="Email">
-        <span>&#x1F382</span>
-        <input type="date" name="birthday" id="birthday" placeholder="Birthday">
+        <div class="form-btm">
+            <span>&#x2709;</span>
+            <input type="email" name="email" id="email" placeholder="Email">
+            <span>&#x1F382</span>
+            <input type="date" name="birthday" id="birthday" placeholder="Birthday">
+        </div>
         </form>
     </body>
 </html>
