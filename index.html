@@ -25,6 +25,7 @@
                 <span>&#8942;</span>
             </div>
         </nav>
+        <div class="main-form">
         <form action="#">
         <div class="name">
             <span>&#128100;</span>
@@ -33,10 +34,10 @@
         <div class="phone">
             <span>&#9742;</span>
             <input type="tel" name="phone" id="phone" placeholder="Phone Number">
-            <select name="phone" id="phone">
-                <option value="Home">Home Phone</option>
-                <option value="Cell">Cell Phone</option>
-                <option value="Work">Work Phone</option>
+            <select name="phone" id="phone-select">
+                <option value="Home">Home</option>
+                <option value="Cell">Cell</option>
+                <option value="Work">Work</option>
             </select>
         </div>
         <div class="address">
@@ -48,6 +49,7 @@
             <div class="state-zip">
                 <label for="state"></label>
                 <select id="state" name="state">
+                    <option value="State">State</option>
                     <option value="AL">Alabama</option>
                     <option value="AK">Alaska</option>
                     <option value="AZ">Arizona</option>
@@ -99,7 +101,7 @@
                     <option value="WI">Wisconsin</option>
                     <option value="WY">Wyoming</option>
                 </select>
-                <input type="number" name="zip" id="zip" maxlength="5">
+                <input type="number" name="zip" id="zip" maxlength="5" placeholder="Zip">
             </div>
         </div>
         <div class="form-btm">
@@ -109,5 +111,6 @@
             <input type="date" name="birthday" id="birthday" placeholder="Birthday">
         </div>
         </form>
+        </div>
     </body>
 </html>
