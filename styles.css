@@ -46,10 +46,10 @@ nav {
 .container {
     display: grid;
     justify-content: center;
-    grid-template-rows: repeat(6, minmax(80px, auto));
+    grid-template-rows: repeat(7, minmax(80px, auto));
 }
 
-.name, .phone, .address-city, .address-state, .email, .birthday { 
+.name, .phone, .address, .city, .address-state, .email, .birthday { 
     justify-self: center;
     align-self: center;
 }
@@ -72,4 +72,137 @@ nav {
     position: relative;
     top: 5px;
     right: 16px;
+}
+
+.phone {
+    position: relative;
+    left: 4px;
+}
+
+.phone span {
+    font-size: 29px;
+    position: relative;
+    top: 5px;
+    right: 23px;
+}
+
+.phone input {
+    height: 59px;
+    width: 160px;
+    text-indent: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 16px;
+}
+
+.phone select {
+    height: 64px;
+    width: 163px;
+    text-indent: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 16px;
+    margin-left: 27px;
+}
+
+.address span {
+    font-size: 29px;
+    position: relative;
+    top: 5px;
+    right: 23px;
+}
+
+.address input {
+    height: 64px;
+    width: 360px;
+    text-indent: 10px;
+    border-radius: 5px 5px 0px 0px;
+    border: 1px solid black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: #f0ecec;
+    font-size: 16px;
+}
+
+.city input {
+    height: 64px;
+    width: 360px;
+    text-indent: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 16px;
+    position: relative;
+    left: 21px;
+}
+
+.state-zip {
+    position: relative;
+    left: 20px;
+}
+
+.state-zip select {
+    height: 64px;
+    width: 163px;
+    text-indent: 10px;
+    border-radius: 5px 5px 0px 0px;
+    border: 1px solid black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: #f0ecec;
+    font-size: 16px;
+}
+
+.state-zip input {
+    height: 61px;
+    width: 160px;
+    text-indent: 10px;
+    border-radius: 5px 5px 0px 0px;
+    border: 1px solid black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: #f0ecec;
+    font-size: 16px;
+    margin-left: 32px;
+}
+
+.email span {
+    font-size: 29px;
+    position: relative;
+    top: 5px;
+    right: 16px;
+}
+
+.email input {
+    height: 64px;
+    width: 360px;
+    text-indent: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 16px;
+    position: relative;
+    left: 5px;
+}
+
+.birthday span {
+    font-size: 29px;
+    position: relative;
+    top: 5px;
+    right: 16px;
+}
+
+.birthday input {
+    height: 64px;
+    width: 360px;
+    text-indent: 10px;
+    border-radius: 5px 5px 0px 0px;
+    border: 1px solid black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: #f0ecec;
+    font-size: 20px;
+    padding-right: 3px;
 }
